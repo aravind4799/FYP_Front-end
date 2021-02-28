@@ -1,0 +1,46 @@
+
+.btn:link,
+.btn:visited{
+    text-decoration: none;
+    border-radius: 100px;
+    transition:all .2s;  
+}
+
+.btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+.btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    background-color:#01BF71;
+}
+.btn-green{
+    background-color:#bbecd8;
+    padding:10px 20px;
+    display: inline-block;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size:1.4rem;
+    color:black;
+}
+.logo{
+    margin-left:3px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+    .btn-green{
+        background-color:#bbecd8;
+        padding:5px 10px;
+        display: inline-block;
+        border-radius: 100px;
+        letter-spacing: 1px;
+        font-size:1.4rem;
+        margin-bottom: 30px;
+    }
+    .logo{
+        margin-left:3px;
+        font-size: 1.5rem;
+    }
+  }
