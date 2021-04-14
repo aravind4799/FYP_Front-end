@@ -22,7 +22,7 @@ const HeroSection = () => {
                 <HeroBtnWrapper>
                 <Button to='about' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
                         Learn More {hover ? <ArrowForward/> :<ArrowRight/> }
-                    </Button>
+                </Button>
                 </HeroBtnWrapper>
             </HeroContent>
         </HeroContainer>

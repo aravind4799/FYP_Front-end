@@ -46,8 +46,8 @@ const Footer = () => {
 
                         <FooterLinkItems>
                            <FooterLinkTitle>Business</FooterLinkTitle> 
-                                <FooterLink> Lorem ip </FooterLink>
-                                <FooterLink> Lorem ip </FooterLink>
+                                <FooterLink> Contribute </FooterLink>
+                                <FooterLink> Funding </FooterLink>
                             </FooterLinkItems>
 
                         <FooterLinkItems>
@@ -62,8 +62,8 @@ const Footer = () => {
                 </FooterLinksContainer>
 
                 <SocialMediaWrap>
-                    <SocialLogo to='/' onClick={toggleHome}>Gagetdeck</SocialLogo>
-                    <WebsiteRights>Gagetdeck &copy; {new Date().getFullYear()} All rights reserved.</WebsiteRights>
+                    <SocialLogo to='/' onClick={toggleHome}>Gadgetdeck</SocialLogo>
+                    <WebsiteRights>Gadgetdeck &copy; {new Date().getFullYear()} All rights reserved.</WebsiteRights>
 
                     <SocialIcons>
                         <SocialIconLink href='//www.facebook.com' target='_blank'aria-label='facebook'><FaIcons.FaFacebook/></SocialIconLink>

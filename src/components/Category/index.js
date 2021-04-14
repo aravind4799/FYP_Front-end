@@ -5,11 +5,12 @@ import {FcSportsMode as SportsIcon} from 'react-icons/fc'
 import {FaShopify} from 'react-icons/fa'
 import {RiFridgeLine as KitchenIcon} from 'react-icons/ri'
 import {ImBooks as BooksIcon} from 'react-icons/im'
+import {FcElectronics as ElectronicIcon} from 'react-icons/fc';
 import CategoryButtons from '../CategoryButtons';
 const Category = () => {
 
     return(
-        <>
+        <div id='search'>
 
         <h1 className='heading'>What are you looking for?</h1>
         
@@ -18,7 +19,7 @@ const Category = () => {
         
         <CategoryButtons
           title='Electronics'
-          logo={<MobileIcon/>}
+          logo={<ElectronicIcon/>}
           path='/electronics'
         />
         <CategoryButtons
@@ -26,25 +27,26 @@ const Category = () => {
           logo={<SportsIcon/>}
           path='/sports'
         />
-        <CategoryButtons
+        {/* <CategoryButtons
           title='Fashion'
           logo={<FaShopify/>}
           path='/fashion'
+        /> */}
+         <CategoryButtons
+          title='Cellphone'
+          logo={<MobileIcon/>}
+          path='cellphone'
         />
-        <CategoryButtons
+        {/* <CategoryButtons
           title='Kitchen'
           logo={<KitchenIcon/>}
           path='kitchen'
-        />
-        <CategoryButtons
-          title='Music and Books'
-          logo={<BooksIcon/>}
-          path='books'
-        />
+        /> */}
+       
 
         </div>
         
-        </>
+        </div>
     )
 }
 export default Category

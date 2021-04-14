@@ -13,20 +13,20 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={Icon1}/>
                     <ServicesH2>Search for a product</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet</ServicesP> 
+                    <ServicesP>Search for your desired product and get similar recommendation ,exposing you to similar products in market </ServicesP> 
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon2}/>
                     <ServicesH2>Compare products</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet</ServicesP> 
+                    <ServicesP>From different kind of recommendation choose the one that best suites you!</ServicesP> 
         
                 </ServicesCard>
 
                 <ServicesCard>
                     <ServicesIcon src={Icon3}/>
                     <ServicesH2>Find your best deal</ServicesH2>
-                    <ServicesP>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet</ServicesP> 
+                    <ServicesP>Make sure you get best value from your money</ServicesP> 
                 </ServicesCard>
 
             </ServicesWrapper>
