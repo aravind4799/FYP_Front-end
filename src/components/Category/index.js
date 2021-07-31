@@ -26,11 +26,11 @@ const Category = () => {
           logo={<BiCameraMovie />}
           path='/movie'
         />
-        <CategoryButtons
+        {/* <CategoryButtons
           title='Cellphone'
           logo={<MobileIcon />}
           path='cellphone'
-        />
+        /> */}
       </div>
     </div>
   )
